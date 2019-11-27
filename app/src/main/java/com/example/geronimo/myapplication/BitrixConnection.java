@@ -68,6 +68,7 @@ public class BitrixConnection extends AsyncTask<String,Void,String> {
                     InputStreamReader(connection.getInputStream());
             //Create a new buffered reader and String Builder
             BufferedReader reader = new BufferedReader(streamReader);
+
             StringBuilder stringBuilder = new StringBuilder();
             //Check if the line we are reading is not null
             while((inputLine = reader.readLine()) != null){
