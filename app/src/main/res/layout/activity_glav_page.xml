@@ -15,6 +15,7 @@
         android:layout_marginRight="30dp"
         android:background="#49acfd"
         android:drawableLeft="@drawable/user"
+        android:onClick="onClick"
         android:text="Профиль"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

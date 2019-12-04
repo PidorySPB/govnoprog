@@ -1,5 +1,6 @@
 package com.example.geronimo.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,5 +33,9 @@ BitrixConnection bc;
                 e.printStackTrace();
             }
         }
+    }
+    public void onClick_registr(View v) {
+        Intent intent = new Intent(MainActivity.this, RegistrationActivity.class);
+        startActivity(intent);
     }
 }
